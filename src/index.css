@@ -1,0 +1,58 @@
+@layer base {
+  @font-face {
+    font-family: IRANSansXFaNum-medium;
+    src: url("./assets/fonts/woff/IRANSansXFaNum-Medium.woff") format("woff"),
+      url("./assets/fonts/woff2/IRANSansXFaNum-Medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: IRANSansXFaNum-bold;
+    src: url("./assets/fonts/woff/IRANSansXFaNum-Bold.woff") format("woff"),
+      url("./assets/fonts/woff2/IRANSansXFaNum-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: IRANSansXFaNum-regular;
+    src: url("./assets/fonts/woff/IRANSansXFaNum-Regular.woff") format("woff"),
+      url("./assets/fonts/woff2/IRANSansXFaNum-Regular.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "IRANSansXFaNum-medium", "IRANSansXFaNum-bold",
+    "IRANSansXFaNum-regular";
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+.MuiOutlinedInput-root:hover {
+  border: none;
+}
